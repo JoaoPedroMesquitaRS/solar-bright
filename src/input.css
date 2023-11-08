@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-home{
+    background-image: url('../src/img/desktop-bg-home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-about-us{
+    background-image: url('../src/img/desktop-bg-about-us.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*********************************************************************/
+
+.green-def{
+    color: #0D7818;
+}
+
+.green-def-bg{
+    background-color: #0D7818;
+    color: #fff;
+}
+
+.y-def{
+    color: #D49721;
+}
+
+.yellow-def-bg{
+    background-color: #D49721;
+    color: #fff;
+}
+
+.b-def-bg{
+    background-color: #3A93FB;
+}
+
+/*********************************************************************/
+  
+.clock::before{
+    background-image: url('../src/img/icons/clock.svg');
+    content: '';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+}
+
+.graph::before{
+    background-image: url('../src/img/icons/graph.svg');
+    content: '';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.rain::before{
+    background-image: url('../src/img/icons/rain.svg');
+    content: '';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.whatsapp::before{
+    background-image: url('../src/img/icons/whatsapp.svg');
+    content: '';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;    
+}
+
+.facebook::before{
+    background-image: url('../src/img/icons/facebook.svg');
+    content: '';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;    
+}
+
+.linkedin::before{
+    background-image: url('../src/img/icons/linkedin.svg');
+    content: '';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;    
+}
+
+.instagram::before{
+    background-image: url('../src/img/icons/instagram.svg');
+    content: '';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;    
+}
+
+.phone::before{
+    background-image: url('../src/img/icons/phone.svg');
+    content: '';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;    
+}
